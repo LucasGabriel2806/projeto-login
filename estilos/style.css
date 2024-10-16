@@ -1,8 +1,86 @@
 @charset "UTF-8";
 
+/* Pesquisar por Typical Device Brakpoints 
+------------------------------------------
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+
+*/
+
 /*
     Paleta de cores
     Verde: #49a09d
     Lilás: #5f2c82
 */
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+section {
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    width: 250px;
+}
+
+section > #imagem {
+    width: 100%;
+    height: 200px;
+    background-image: url(../imagens/metal.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+section > #formulario {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+section > #formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form > input {
+    margin-bottom: 5px;
+    width: 100%;
+    border: 3px solid #5f2c82;
+    border-radius: 7px;
+}
+
+form > input[type="text"]::before {
+    content: '';
+    
+}
+
+form > #btn-entrar {
+    background-color: #49a09d;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form > #btn-esqueci-senha {
+    background-color: white;
+    color: #49a09d;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #49a09d;;
+    border-radius: 5px;
+}

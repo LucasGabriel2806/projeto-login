@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
     <link rel="stylesheet" href="estilos/style.css">
     <title>Login</title>
 </head>
 <body>
 
     <main>
+
         <section id="login">
 
             <div id="imagem">
 
-                Foto
+                
 
             </div>
 
@@ -23,7 +26,18 @@
 
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as confiugurações no seu ambiente.</p>
 
-                <form action="login.php" method="post"></form>
+                <form action="login.php" method="post">
+
+                    <span class="material-symbols-outlined">person</span>
+                    <input type="email" name="" id="">
+
+                    <input type="password" name="" id="">
+
+                    <input id="btn-entrar" type="submit" value="Entrar">
+
+                    <button id="btn-esqueci-senha">Esqueci a senha<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="24px" fill="#49a09d"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280 320-200v-80L480-520 160-720v80l320 200Z"/></svg></button>
+
+                </form>
 
             </div>
 
