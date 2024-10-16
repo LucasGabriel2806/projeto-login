@@ -1,16 +1,5 @@
 @charset "UTF-8";
 
-/* Pesquisar por Typical Device Brakpoints 
-------------------------------------------
-
-Pequenas telas: até 600px
-Celular: de 600px até 768px
-Tablet: de 768px até 992px
-Desktop: de 992px até 1200px
-Grandes telas: acima de 1200px
-
-*/
-
 /*
     Paleta de cores
     Verde: #49a09d
@@ -48,6 +37,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
